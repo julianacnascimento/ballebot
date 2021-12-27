@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #FFF2E7;
+}
+.nav .nav-link {
+  margin: 30px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+}
+.main-section-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.title {
+  font-family: 'Righteous', sans-serif;
+  font-size: 64px;
+  margin-top: 94px;
+  color: #fff;
+}
+.subtitle{
+  font-family: 'Sarala', sans-serif;
+  margin-top: 32px;
+  color: #fff;
+}
+.add-me {
+  font-family: 'Sarala', sans-serif;
+  font-size: 20px;
+  margin-top: 48px;
+  background-color: #ECD6C4;
+  width: 185px;
+  height: 64px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.main-section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-section-2 .secondary-title {
+  font-family: 'Righteous', sans-serif;
+  font-size: 24px;
+  margin: 50px 0;
+  color: #fff;
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 80px;
+}
+.main-section-2 .paragraph {
+  font-family: 'Sarala', sans-serif;
+  font-size: 18px;
+  margin: 10px;
+  color: #fff;
+}
+.footer {
+  margin-top: 124px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #fff;
+}
+.footer img {
+  padding: 32px;
+  height: 104px;
+}
